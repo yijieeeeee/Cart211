@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+TC:wght@700&display=swap";
+
+* {
+  width:
+  /* margin:0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffcc00;
+}
+
+.header_lrg {
+  display: flex;
+  justify-content:center;
+}
+.main_header{
+  display:flex;
+  flex-direction:column;
+
+}
+/* fr unit (a “fraction”) split up column equally but not caculating in % */
+.reading_pages {
+  display: flex;
+  /* grid-template-columns: 1fr;
+  grid-template-rows:1fr;
+  grid-gap: 20px; */
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction:column;
+  height: 800px;
+  margin: auto;
+  padding-left: 20px;
+}
+/* specify that only specific HTML elements should be affected by a class.To do this, start with the element name, then write the period (.) character, followed by the name of the class  */
+.header_lrg section {
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: left;
+  min-height: 50vh;
+  height: auto;
+  background: #333;
+}
+
+header {
+  text-align: left;
+  color: #313131;
+
+}
+.header_lrg h2 {
+  font-size: 5em;
+  font-family: "Noto Serif TC", serif;
+    text-transform:uppercase;
+}
+
+.header_lrg h1 {
+  /* font-size:; */
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.reading_pages_parent{
+ align-items: flex-start;
+}
+.reading_pages a{
+  font-size: 50px;
+  text-transform:uppercase;
+}
+.reading_page1{
+  flex-basis: 20%;
+}
+.reading_page2{
+  flex-basis: 50%;
+}
+.reading_page3{
+  flex-basis: 50%;
+}
+.reading_page4{
+  flex-basis: 50%;
+}
+
+.cali_boxes {
+  display: flex;
+  align-items: flex-end;
+}
+.cali_boxes div {
+  padding: 10px;
+  border: aqua;
+  border-color: crimson;
+}
+.box1 {
+  flex: 1;
+}
+.box2 {
+  flex: 1;
+}
+.box3 {
+  flex: 1;
+}
+.box4 {
+  flex: 1;
+}
+/* .header_lrg header {
+  text-align: center;
+}
+
+.header_lrg h2 {
+  font-family: cursive;
+  font-size: 3em;
+  line-height: 1em;
+  text-transform:
+} */
+
+/* parent */
+/* section.right {
+  min-height: 78vh;
+  height: auto;
+  padding: 2%;
+}
+
+.right article {
+  backgorund()
+} */
+.logo {
+
+}
+#mainlogo {
+  size:100px;
+  position:relative;
+  left: 0em;
+  bottom: auto;
+  width: 200px;
+  height: 200px;
+}

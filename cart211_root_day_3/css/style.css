@@ -1,0 +1,65 @@
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: brown;
+  font-family: verdana, arial, sans-serif;
+}
+
+header {
+  background-color: chocolate;
+  color: bisque;
+  padding: 2% 40%;
+}
+  artical h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+
+header h2 {
+  color: ;
+  font-size: inherit;
+  font-family:
+}
+
+nav{
+  background-color: #5555
+}
+
+nav a:link{
+  background-color: blanchedalmond;
+  color: aliceblue;
+  padding: 50%;
+  display: inline-block;
+  text-decoration: none;
+}
+nav a:visited{
+  color: burlywood;
+}
+nav a:hover{
+  color: antiquewhite;
+  background-color: brown;
+}
+
+article {
+  padding: 6%;
+
+}
+article h1{
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 1%;
+
+}
+
+article p{
+  margin-bottom: 1%;
+  font-size: 50px;
+  line-height: 24px;
+
+}
+ footer{
+   text-transform: initial;
+ }

@@ -1,0 +1,57 @@
+/*  */
+body {
+  background-color: #74992e;
+  fond-family: gotham, helvetica, verdana, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  color: aquamarine;
+
+}
+
+h2 {
+  font-family: georgia, times, serif;
+  font-size: 50px;
+  color: aquamarine;
+  font-style: italic;
+  text-transform: capitalize;
+  line-height: 2px;
+}
+
+h3 {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+h4 {
+  font-size: 60px;
+  color: aquamarine;
+}
+
+p {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* must be in this order: link, visited, hover, active */
+/* do not need to repead because revisited */
+a:link {
+  color: darkgreen;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-right: 100px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+a:active {
+  color: aqua;
+}
